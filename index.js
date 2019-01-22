@@ -9,6 +9,6 @@ function nowServing(line) {
 
     return `Currently serving ${line.shift()}.`
   } else {
-    "The line is currently empty." 
+    return "The line is currently empty." 
   }
 }
